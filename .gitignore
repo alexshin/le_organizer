@@ -6,3 +6,7 @@ Homestead.json
 .env
 .DS_Store
 .idea
+
+*~
+*.swp
+*.swo
