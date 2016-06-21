@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['namespace' => 'Api\\V1'], function(){
+    Route::resource('tasks', 'TaskController');
+    Route::resource('categories', 'CategoryController');
+});

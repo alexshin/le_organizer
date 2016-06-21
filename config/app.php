@@ -158,6 +158,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Third Party Service Providers...
+         */
+        NilPortugues\Laravel5\JsonApi\Laravel5JsonApiServiceProvider::class,
+
     ],
 
     /*
